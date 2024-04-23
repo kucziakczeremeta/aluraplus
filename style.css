@@ -3,10 +3,14 @@
   --cinza-secundario: #C0C0C0;
   --botao-azul:#167BF7;
   --cor-de-fundo:#00030C;
+  --fonte-principal: 'inter';
  }
  body{
 background-color: var(--cor-de-fundo);
 color: var(--branco-pricipal);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
  }
  * {
    margin: 0;
@@ -33,3 +37,14 @@ color: var(--branco-pricipal);
    background-color: transparent;
    border: 2px solid var(--branco-pricipal);
  }
+ .container-aviso{
+  font-size: 12px;
+  color: var(--cinza-secundario);
+  display: block;
+  text-decoration: none;
+ }
+.container-titulo{
+  font-size: 28px;
+  font-weight: 700;
+
+}
