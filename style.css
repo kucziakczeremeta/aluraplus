@@ -105,7 +105,6 @@ body{
 .rodape-texto{
   margin: 1em 0;
   color: var(--cinza-secundario);
-  list-style-type: none;
   font-size: 12px;
 }
 .rodape{
