@@ -1,55 +1,56 @@
- :root{
-    --branco-pricipal: #FFFFFF;
-  --cinza-secundario: #C0C0C0;
-  --botao-azul:#167BF7;
-  --cor-de-fundo:#00030C;
-  --fonte-principal: 'inter';
- }
- body{
-background-color: var(--cor-de-fundo);
-color: var(--branco-pricipal);
-font-family: var(--fonte-principal);
-font-size: 16px;
-font-weight: 400;
- }
- * {
-   margin: 0;
-   padding: 0;
- }
- .principal{
-   background-image: url("img/image copy.png");
-   background-repeat: no-repeat;
-   background-size: contain;
+:root{
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul:#167bf7;
+  --botao-azul-efeito:#96b7e0; 
+  --cor-de-fundo:#00030c;
+  --fonte-principal:'Inter'
+}
+body{
+  background-color:var(--cor-de-fundo);
+  color: var(--branco-principal);
+  font-family: var(var(--fonte-principal));
+  font-size: 16px;
+  font-weight:400;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
+.principal{
+  background-image: url("img/image\ copy.png");
+  background-repeat: no-repeat;
+  background-size: contain;
    align-items: center;
    text-align: center;
- }
- .container{
-   height: 100vh;
-   display: grid;
-   grid-template-columns: 50% 50%;
- }
- .container-botao{
-   background-color: var(--botao-azul);
-   border-radius:5px ;
-   padding: 1em;
-   color: var(--branco-pricipal);
-   display: block;
-   text-decoration: none;
-   margin-bottom: 1em;
- }
- .botao-secundario{
-   background-color: transparent;
-   border: 2px solid var(--branco-pricipal);
- }
- .container-aviso{
+}
+.container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns:  50% 50%;
+}
+.container-botao{
+  background-color: var(--botao-azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--branco-principal);
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1em;
+}
+.botao-secundario{
+  background-color: transparent;
+  border: 2px solid var(--branco-principal);
+}
+.container-aviso{
   font-size: 12px;
   color: var(--cinza-secundario);
   display: block;
   text-decoration: none;
- }
+}
 .container-titulo{
-  font-size: 28px;
   font-weight: 700;
+  font-size: 30px;
 }
 .container-imagem{
   margin: 1em 0 2em 0;
@@ -67,13 +68,13 @@ font-weight: 400;
 .descricao-titulo{
   font-weight: 700;
   font-size: 48px;
-  color: var(--branco-pricipal);
+  color: var(--branco-principal);
   margin-bottom: 0.1em;
 }
 .descricao-texto{
-  color: var(--cinza-secundario)
+  color: var(--cinza-secundario);
 }
-.container-descriacao{
+.botao-descricao{
   padding: 2em;
 }
 .dispositivos-lista{
@@ -85,9 +86,9 @@ font-weight: 400;
   text-align: center;
   margin: 5em 0;
 }
-.dispositivos-titulo{
+.descricao-titulo{
   font-size: 32px;
-  color: var(--branco-principal);
+  color: var(--branco-principal)
 }
 .rodape-lista{
   display: flex;
